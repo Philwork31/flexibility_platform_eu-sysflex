@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexibilityBid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ActualFlexibilityBid.xsd">
+	<flexibility_service_provider>ID of the Provider</flexibility_service_provider>
+	<product_id>iD of the product</product_id>
+	<metering_point_id>Id of the Meter or sub meter</metering_point_id>
+	<power>20</power>
+	<price>30</price>
+	<linking_of_bids>true</linking_of_bids>
+	<localization_factor>Id of the localization Factor</localization_factor>
+	<start_of_delivery>2001-12-17T10:00:00Z</start_of_delivery>
+</FlexibilityBid>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier échantillon XML généré par XMLSpy v2021 (x64) (http://www.altova.com)-->
+<FP:FlexibilityBid_MarketDocument xmlns:FP="CIM/EuSysFlex/FlexibilityBid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="CIM/EuSysFlex/FlexibilityBid CIM_flexibilityBid.xsd">
+	<Bid_TimeSeries>
+		<Currency_Unit>
+			<name>€/MWh</name>
+		</Currency_Unit>
+		<Delivery_Period>
+			<Point>
+				<position>0</position>
+				<Price>
+					<amount>30</amount>
+				</Price>
+				<quantity>20</quantity>
+			</Point>
+			<resolution>PT1H</resolution>
+			<timeInterval>
+				<end>2001-12-17T09:00:00Z</end>
+				<start>2001-12-17T10:00:00Z</start>
+			</timeInterval>
+		</Delivery_Period>
+		<Linked_BidTimeSeries>
+			<mRID>ID of the Linked BID</mRID>
+		</Linked_BidTimeSeries>
+		<Measure_Unit>
+			<name>MW</name>
+		</Measure_Unit>
+		<Metering_MarketEvaluationPoint>
+			<mRID>Id of the Meter or sub meter</mRID>
+			<ServiceLocation>
+				<CoordinateSystem>
+					<name>String</name>
+				</CoordinateSystem>
+				<mainAddress>
+					<postalCode>String</postalCode>
+					<streetDetail>
+						<addressGeneral>String</addressGeneral>
+						<buildingName>String</buildingName>
+						<name>String</name>
+						<number>String</number>
+					</streetDetail>
+					<townDetail>
+						<country>String</country>
+						<name>String</name>
+						<stateOrProvince>String</stateOrProvince>
+					</townDetail>
+				</mainAddress>
+				<PositionPoints>
+					<xPosition>String</xPosition>
+					<yPosition>String</yPosition>
+					<zPosition>String</zPosition>
+				</PositionPoints>
+			</ServiceLocation>
+		</Metering_MarketEvaluationPoint>
+		<mRID>id of the BID</mRID>
+		<product>iD of the product</product>
+	</Bid_TimeSeries>
+	
+	<LocalizationFactor_Domain>
+		<mRID>Id of the localization Factor</mRID>
+	</LocalizationFactor_Domain>
+	<mRID>Id of the message wich may contain several Bids</mRID>
+	<Period>
+		<timeInterval>
+			<end>2001-12-17T01:00:00Z</end>
+			<start>2001-12-17T23:30:00Z</start>
+		</timeInterval>
+	</Period>
+	<Provider_MarketParticipant>
+		<MarketRole>
+			<mRID>id of the marketRole valid for this Provider</mRID>
+		</MarketRole>
+		<mRID>ID of the Provider</mRID>
+	</Provider_MarketParticipant>
+</FP:FlexibilityBid_MarketDocument>

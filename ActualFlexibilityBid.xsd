@@ -1,0 +1,16 @@
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FlexibilityBid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="flexibility_service_provider" type="xs:string" />
+        <xs:element name="product_id" type="xs:string" />
+        <xs:element name="metering_point_id" type="xs:string" />
+			<xs:element name="power" type="xs:decimal" />
+        <xs:element name="price" type="xs:decimal" />
+        <xs:element name="linking_of_bids" type="xs:boolean" />
+        <xs:element name="localization_factor" type="xs:string" />
+        <xs:element name="start_of_delivery" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
