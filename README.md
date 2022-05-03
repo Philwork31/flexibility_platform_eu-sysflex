@@ -17,4 +17,4 @@ python manage.py runserver 0:8000
 
 ## Licence
 
-> This work is provided inder the terms of the EUPL v1.2 by AKKA Technologies.
+> This work is provided under the terms of the EUPL v1.2 by AKKA Technologies.
