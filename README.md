@@ -1,6 +1,9 @@
 # EU-SysFlex - Flexibility Platform
 
-> Flexibility platform for EU-SysFlex project
+> Here, the source code of the Flexibility platform developped as part of the EU-SysFlex project is hosted. 
+> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 773505.
+
+
 
 ## Build Setup
 
@@ -18,3 +21,6 @@ python manage.py runserver 0:8000
 ## Licence
 
 > This work is provided inder the terms of the EUPL v1.2 by AKKA Technologies.
+> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 773505.
+
+
